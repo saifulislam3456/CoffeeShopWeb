@@ -1,0 +1,50 @@
+
+
+body{
+    font-family:  cursive;
+}
+
+#banner{
+    min-height: 100vh;
+    background: linear-gradient(45deg, #00000042, #000000c7),url(../img/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#banner .underline{
+    width: 300px;
+    border: 3px solid #fb5200;
+    background: orangered;
+}
+.middle{
+    padding-top: 12rem !important;
+}
+.underline{
+    width: 150px;
+    border: 3px solid #fb5200;
+    background: orangered;
+}
+
+#about{
+
+    background-color: #2d3142;
+}
+
+#about .pic{
+    height: 600px;
+    background: url(../img/picture.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid  #2d3142;
+}
+#about .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
